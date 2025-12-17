@@ -1,7 +1,6 @@
 #include <zephyr/kernel.h>
 #include <zephyr/drivers/gpio.h>
 #include <zephyr/drivers/gpio/gpio_emul.h>
-#include <zephyr/drivers/uart.h>
 #include <string.h>
 #include <stdlib.h>
 #include <stdbool.h>
