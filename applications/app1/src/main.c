@@ -14,11 +14,11 @@
 static const struct gpio_dt_spec led = GPIO_DT_SPEC_GET(DT_ALIAS(led0), gpios);
 int get_led_output( const struct gpio_dt_spec *led );
 
-/* Simulated sensor producing pseudo-random values */
+/* Simulated sensor  */
 static int simulated_temp_c(void)
 {
     uint32_t t = k_uptime_get_32();
-    return 18 + (t % 13);   // values from 18 to 30
+    return 18 + (t % 13);   //  from 18 to 30
 }
 
 int main(void)
