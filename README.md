@@ -1,7 +1,7 @@
 # advanced-os-zephyr
 
 
-## Docker iamge for zephyr
+## Docker image for zephyr
 docker pull modularmx/zephyros:latest
 
 In your local machine choose a directory where your project and Zephyr source code will live. Run the container with a shared folder using the --mount flag. And in my case the /home/user/workspace set the working folder inside my container.
