@@ -28,6 +28,5 @@ or
 
 west build -p always -b native_sim applications/app1
 
-
 ## Run the app
 west build -t run 

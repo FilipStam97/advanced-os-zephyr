@@ -125,7 +125,7 @@ ZephyrModuleFile.txt
 node_modules
 
 #for contiainer
-zephyr  
+zephyr
 tools
 modules
 bootloader
